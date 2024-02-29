@@ -8,6 +8,12 @@
     --footer-text-color: rgba(255, 255, 255, 0.6);
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .body {
     color: var(--text-color);
     font-family: "Roboto", sans-serif;
@@ -24,6 +30,7 @@
     font-size: 26px;
     font-family: "Raleway", sans-serif;
     margin-right: 93px;
+    letter-spacing: 0.03em;
 }
 
 .nav-word {
@@ -31,10 +38,12 @@
     font-weight: 700;
     font-size: 26px;
     font-family: "Raleway", sans-serif;
+    letter-spacing: 0.03em;
 }
 
 .list-wrap {
     display: flex;
+    align-items: center;
 }
 
 .nav-list {
@@ -43,13 +52,36 @@
     justify-content: space-evenly;
 }
 
-.nav-item {
+.nav-link {
     margin-right: 50px;
     font-weight: 500;
     font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
+
+.nav-link:hover {
+    color: var(--button-color);
+}
+
+.nav-wrap {
+    display: flex;
+    align-items: center;
 
 }
 
-.nav-item:hover {
-    color: var(--button-color);
+.wrap-link {
+    margin-left: 50px;
+    color: var(--text-color);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.02em;
+}
+
+.header-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
