@@ -102,21 +102,51 @@
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
 }
-.presentation-button{
-padding-top: 10px;
-padding-bottom: 10px;
-padding-left: 30px;
-padding-right: 30px;
-margin: 0 auto;
-background-color: var(--button-color);
-border-radius: 4px;
-border: 2px;
-font-family: 'Roboto', sans-serif;
+
+.presentation-wrap {
+    display: flex;
+    justify-content: center;
 }
-.button-link {
+
+.presentation-button {
     font-weight: 700;
     font-size: 16px;
-    letter-spacing: 0.06em;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: var(--button-color);
+    border: 2px solid var(--button-color);
+    border-radius: 4px;
     color: var(--background);
+    letter-spacing: 0.06em;
+}
+
+.benefice {
+    padding-top: 168px;
+    padding-bottom: 43px;
+    color: var(--text-color);
+}
+
+.benefice-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.benefice-title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+    margin-bottom: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.benefice-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    
 }
