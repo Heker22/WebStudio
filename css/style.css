@@ -148,5 +148,23 @@
 .benefice-text {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 171%;
+}
+.work{
+    padding-top: 34px;
+    padding-bottom: 94px;
+}
+.work-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+.work-list{
+    display: flex;
+    justify-content: space-evenly;
 }
