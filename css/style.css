@@ -6,6 +6,7 @@
     --title-color: #212121;
     --text-color: #757575;
     --footer-text-color: rgba(255, 255, 255, 0.6);
+    --team-background: #f5f4fa;
 }
 
 .container {
@@ -152,10 +153,12 @@
     letter-spacing: 0.03em;
     line-height: 171%;
 }
-.work{
+
+.work {
     padding-top: 34px;
     padding-bottom: 94px;
 }
+
 .work-title {
     font-weight: 700;
     font-size: 36px;
@@ -164,7 +167,46 @@
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
 }
-.work-list{
+
+.work-list {
     display: flex;
     justify-content: space-evenly;
+}
+
+.team {
+    background-color: var(--team-background);
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: var(--title-color);
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 50px;
+}
+
+.team-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-img {
+    width: 270px;
+}
+.team-subtitle{
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.list-word{
+ 
+}
+.list-wrap{
+    display: flex;
 }
