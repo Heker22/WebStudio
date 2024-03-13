@@ -205,7 +205,7 @@
     font-family: 'Roboto', sans-serif;
 }
 .list-word{
- 
+ display: block;
 }
 .list-wrap{
     display: flex;
