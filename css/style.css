@@ -7,6 +7,7 @@
     --text-color: #757575;
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --team-background: #f5f4fa;
+    --line-color:#ececec;
 }
 
 .container {
@@ -23,6 +24,7 @@
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
+    border-bottom: 1px solid var(--line-color);
 }
 
 .nav-logo {
@@ -92,6 +94,10 @@
     padding-bottom: 200px;
     color: var(--background);
     background-color: var(--background-footer);
+    background-image: url(./../img/bg.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .presentation-title {
@@ -126,7 +132,7 @@
 }
 
 .benefice {
-    padding-top: 168px;
+    padding-top: 94px;
     padding-bottom: 43px;
     color: var(--text-color);
 }
@@ -219,9 +225,6 @@
 
 .list-wrap {
     display: flex;
-    flex-direction: column;
-    padding-bottom: 30px;
-    padding-top: 30px;
 }
 
 .team-item {
@@ -269,4 +272,42 @@
     letter-spacing: 0.03em;
     color: var(--background);
     font-family: 'Roboto', sans-serif;
+}
+
+.benefice-item::before {
+    content: "";
+    display: block;
+    background-color: var(--team-background);
+    height: 120px;
+    width: 100%;
+    border-radius: 4px;
+    background-image: url(./../img/antenna.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: 30px;
+}
+
+.benefice-item:nth-child(2)::before {
+    background-image: url(./../img/clock.png);
+}
+
+.benefice-item:nth-child(3)::before {
+    background-image: url(./../img/diagram.png);
+}
+
+.benefice-item:nth-child(4)::before {
+    background-image: url(./../img/astronaut.png);
+}
+
+.team-list-wrap {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.team-item {
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+.choose{
+    padding-top: 94px;
+    padding-bottom: 94px
 }
