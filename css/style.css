@@ -8,6 +8,7 @@
     --footer-text-color: rgba(255, 255, 255, 0.6);
     --team-background: #f5f4fa;
     --line-color: #ececec;
+    --portfolio-tasks-color: #eee;
 }
 
 .container {
@@ -68,10 +69,17 @@
     color: var(--button-color);
 }
 
+.wrap-link:hover {
+    color: var(--button-color);
+}
+
 .nav-wrap {
     display: flex;
     align-items: center;
+}
 
+.nav-wrap:hover {
+    color: var(--button-color);
 }
 
 .wrap-link {
@@ -354,6 +362,7 @@
 .main-item {
     margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
+    border: 1px solid var(--portfolio-tasks-color);
 }
 
 .main-item:hover {
