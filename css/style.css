@@ -321,6 +321,7 @@
 
 .choose-item {
     margin-right: 8px;
+
 }
 
 .choose-btn {
@@ -331,6 +332,8 @@
     text-align: center;
     padding-right: 22px;
     padding-left: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     border: none;
     border-radius: 4px;
     font-family: 'Roboto', sans-serif;
@@ -338,5 +341,45 @@
 
 .choose-btn:hover {
     background-color: var(--button-color);
-    
+    color: var(--background);
+    cursor: pointer;
+}
+
+.main-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.main-item {
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-item:hover {
+    box-shadow: 1px 4px 6px 0 rgba(0, 0, 0, 0.16), 0 4px 4px 0 rgba(0, 0, 0, 0.06), 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+}
+
+.main-wrap {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    padding-left: 24px;
+}
+
+.main-subtitle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 200%;
+    letter-spacing: 0.06em;
+    color: var(--title-color);
+    margin-bottom: 4px;
+}
+
+.main-word {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
 }
