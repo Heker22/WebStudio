@@ -180,11 +180,27 @@
     text-align: center;
     font-family: 'Roboto', sans-serif;
     margin-bottom: 50px;
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.work-item{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.work-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(47, 48, 58, 0.8);
 }
 
 .work-list {
     display: flex;
     justify-content: space-evenly;
+
 }
 
 .team {
