@@ -89,6 +89,8 @@
     font-weight: 500;
     font-size: 14px;
     letter-spacing: 0.02em;
+    display: flex;
+    align-items: center;
 }
 
 .header-wrap {
@@ -414,4 +416,44 @@
     line-height: 187%;
     letter-spacing: 0.03em;
     color: var(--text-color);
+}
+.nav-icon{
+    fill: var(--text-color);
+    margin-right: 8px;
+}
+.nav-icon:hover,
+.nav-icon:focus{
+fill: var(--button-color); 
+
+}
+.mail{
+    width: 16px;
+    height: 12px;
+}
+.phone{
+    width: 10px;
+    height: 16px;
+}
+.icon-list{
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 16px;
+}
+.team-icon{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-color);
+}
+.item-icon{
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item-icon:hover,
+.item-icon:focus{
+    background-color: var(--button-color);
 }
