@@ -498,14 +498,53 @@
     margin-right: 30px;
     border: 1px solid var(--icons-color);
     border-radius: 4px;
-padding-top: 22px;
-padding-bottom: 22px;
-fill: var(--icons-color);
-padding-left: 50px;
-padding-right: 50px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    fill: var(--icons-color);
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .clients-icon {
     width: 106px;
     height: 60px;
+}
+
+.footer-wrap {
+    margin-left: 70px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--background);
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.footer-wrap-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer-wrap-item {
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-wrap-icon {
+    fill: var(--background);
+    width: 20px;
+    height: 20px;
+}
+
+.footer-box {
+    display: flex;
 }
