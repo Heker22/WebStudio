@@ -606,5 +606,13 @@
     width: 528px;
     height: 581px;
     padding-right: 8px;
-    border:  1px solid #000;
+    position: absolute;
+    top: 221px;
+    left: 536px;
+    background-color: var(--background);
+    border-radius: 4px;
+    box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12);
+}
+.modal-btn{
+border-radius: 50px;
 }
