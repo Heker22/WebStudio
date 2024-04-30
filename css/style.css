@@ -601,3 +601,10 @@
     display: flex;
     gap: 12px;
 }
+
+.modal {
+    width: 528px;
+    height: 581px;
+    padding-right: 8px;
+    border:  1px solid #000;
+}
