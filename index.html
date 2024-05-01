@@ -38,7 +38,7 @@
                 </div>
             </nav>
             <div class="nav-wrap">
-                <a class="wrap-link" href="mailto:info@devstudio.com">
+                <a class="wrap-link" href="mailto:info@devstudio.com" data-modal-open>
                     <svg class="nav-icon mail">
                         <use href="./img/symbol-defs.svg#icon-e-mail"></use>
                     </svg>
@@ -52,10 +52,12 @@
                 </a>
             </div>
     </header>
-    <div class="backdrop is hidden">
+    <div class="backdrop is hidden" data-modal>
         <div class="modal">
-            <button class="modal-btn">
-                X
+            <button class="modal-btn" data-modal-close>
+                <svg class="modal-icon">
+                    <use class="modal-icon-wrap" href="./img/symbol-defs.svg#icon-modal-svg"></use>
+                </svg>
             </button>
         </div>
     </div>
