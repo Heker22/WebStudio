@@ -605,7 +605,7 @@
 
 .modal {
     width: 528px;
-    height: 581px;
+    height: 600px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -699,7 +699,8 @@
     top: 30px;
     left: 15px;
 }
-.comment{
+
+.comment {
     width: 432px;
     height: 120px;
     font-family: 'Roboto', sans-serif;
@@ -707,5 +708,49 @@
     padding-left: 16px;
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
+    margin-top: 4px;
+}
 
+.form-wrap {
+    display: flex;
+    gap: 4px;
+    margin-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    letter-spacing: 0.03em;
+    color: var(--text-color);
+}
+
+.form-link {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+    color: var(--button-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-btn {
+    border-radius: 4px;
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid transparent;
+    background-color: var(--button-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 187%;
+    letter-spacing: 0.06em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--background);
+}
+
+.form-btn:hover,
+.form-btn:focus {
+    color: var(--button-color);
+    background-color: var(--background);
+    border: 1px solid var(--button-color);
 }
