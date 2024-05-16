@@ -64,17 +64,17 @@
                     Залиште свої дані, ми вам передзвонимо
                 </h2>
                 <form class="modal-form">
-                    <label class="form-item">Ім'я<input class="form-input" type="text">
+                    <label class="form-item">Ім'я<input class="form-input" type="text" required minlength="3" maxlength="20">
                         <svg class="form-icon">
                             <use href="./img/modal-icon.svg#icon-user"></use>
                         </svg>
                     </label>
-                    <label class="form-item">Телефон<input class="form-input" type="text">
+                    <label class="form-item">Телефон<input class="form-input" type="text" required minlength="10" maxlength="15">
                         <svg class="form-icon">
                             <use href="./img/modal-icon.svg#icon-phone"></use>
                         </svg>
                     </label>
-                    <label class="form-item">Пошта<input class="form-input" type="text">
+                    <label class="form-item">Пошта<input class="form-input" type="text" required minlength="15" maxlength="25">
                         <svg class="form-icon">
                             <use href="./img/modal-icon.svg#icon-mail"></use>
                         </svg>
@@ -85,7 +85,7 @@
                         </textarea>
                     </label>
                     <div class="form-wrap">
-                        <input class="input-wrap" type="checkbox">
+                        <input class="input-wrap" type="checkbox" required>
                         <p class="form-text">
                             Погоджуюся з розсилкою та приймаю       <a class="form-link" href="">Умови договору</a>
                         </p>

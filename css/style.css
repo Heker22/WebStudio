@@ -668,7 +668,6 @@
     text-align: center;
     color: var(--title-color);
     margin-bottom: 12px;
-    font-family: 'Roboto', sans-serif;
 }
 
 .form-item {
@@ -679,6 +678,7 @@
     color: var(--text-color);
     display: flex;
     flex-direction: column;
+    font-family: 'Roboto', sans-serif;
 }
 
 .form-input {
